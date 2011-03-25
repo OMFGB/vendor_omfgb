@@ -16,4 +16,4 @@ PRODUCT_PACKAGES += Torch
 
 # Copy supersonic specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-   vendor/omgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+   vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
