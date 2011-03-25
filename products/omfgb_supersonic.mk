@@ -1,10 +1,10 @@
 $(call inherit-product, device/htc/supersonic/supersonic.mk)
-$(call inherit-product, vendor/omgb/products/common.mk)
+$(call inherit-product, vendor/omfgb/products/common.mk)
 
-build-name := OMGB-Supersonic
+build-name := OMFGB-Supersonic
 
 # Setup device specific product configuration.
-PRODUCT_NAME := OMGB_supersonic
+PRODUCT_NAME := OMFGB_supersonic
 PRODUCT_BRAND := sprint
 PRODUCT_DEVICE := supersonic
 PRODUCT_MODEL := Evo
@@ -16,4 +16,4 @@ PRODUCT_PACKAGES += Torch
 
 # Copy supersonic specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-#   vendor/omgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+   vendor/omgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip

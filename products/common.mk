@@ -1,9 +1,9 @@
-# Generic OMGB product
-PRODUCT_NAME := OMGB
-PRODUCT_BRAND := OMGB
+# Generic OMFGB product
+PRODUCT_NAME := OMFGB
+PRODUCT_BRAND := OMFGB
 PRODUCT_DEVICE := generic
 
-include vendor/omgb/products/version.mk
+include vendor/omfgb/products/version.mk
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=DonMessWivIt.ogg
@@ -30,36 +30,36 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=r2d2 \
     ro.modversion=$(product-version)
 
-# OMGB specific product packages
+# OMFGB specific product packages
 PRODUCT_PACKAGES += \
 
-# Extra tools in OMGB
+# Extra tools in OMFGB
 PRODUCT_PACKAGES += \
 
 
 
 # Common OMGB overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/omgb/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/common
 
 PRODUCT_COPY_FILES += \
-    vendor/omgb/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
-    vendor/omgb/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
-    vendor/omgb/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
-    vendor/omgb/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
-    vendor/omgb/prebuilt/common/etc/profile:system/etc/profile \
-    vendor/omgb/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
-    vendor/omgb/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
-    vendor/omgb/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
-    vendor/omgb/prebuilt/common/etc/init.d/04modules:system/etc/init.d/04modules \
-    vendor/omgb/prebuilt/common/etc/init.d/20userinit:system/etc/init.d/20userinit \
-    vendor/omgb/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
-    vendor/omgb/prebuilt/common/bin/compcache:system/bin/compcache \
-    vendor/omgb/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
-    vendor/omgb/prebuilt/common/bin/sysinit:system/bin/sysinit \
-    vendor/omgb/prebuilt/common/xbin/htop:system/xbin/htop \
-    vendor/omgb/prebuilt/common/xbin/irssi:system/xbin/irssi \
-    vendor/omgb/prebuilt/common/xbin/powertop:system/xbin/powertop \
-    vendor/omgb/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
+    vendor/omfgb/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
+    vendor/omfgb/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
+    vendor/omfgb/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
+    vendor/omfgb/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
+    vendor/omfgb/prebuilt/common/etc/profile:system/etc/profile \
+    vendor/omfgb/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
+    vendor/omfgb/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/omfgb/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
+    vendor/omfgb/prebuilt/common/etc/init.d/04modules:system/etc/init.d/04modules \
+    vendor/omfgb/prebuilt/common/etc/init.d/20userinit:system/etc/init.d/20userinit \
+    vendor/omfgb/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
+    vendor/omfgb/prebuilt/common/bin/compcache:system/bin/compcache \
+    vendor/omfgb/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
+    vendor/omfgb/prebuilt/common/bin/sysinit:system/bin/sysinit \
+    vendor/omfgb/prebuilt/common/xbin/htop:system/xbin/htop \
+    vendor/omfgb/prebuilt/common/xbin/irssi:system/xbin/irssi \
+    vendor/omfgb/prebuilt/common/xbin/powertop:system/xbin/powertop \
+    vendor/omfgb/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \

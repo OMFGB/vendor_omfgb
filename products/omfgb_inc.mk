@@ -1,10 +1,10 @@
 $(call inherit-product, device/htc/inc/inc.mk)
-$(call inherit-product, vendor/omgb/products/common.mk)
+$(call inherit-product, vendor/omfgb/products/common.mk)
 
-build-name := OMGB-Inc
+build-name := OMFGB-Inc
 
 # Setup device specific product configuration.
-PRODUCT_NAME := OMGB_inc
+PRODUCT_NAME := OMFGB_inc
 PRODUCT_BRAND := htc
 PRODUCT_DEVICE := inc
 PRODUCT_MODEL := Incredible
@@ -18,4 +18,4 @@ PRODUCT_PACKAGES += Torch
 
 # Copy inc specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-#    vendor/omgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/omgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip

@@ -1,10 +1,10 @@
 $(call inherit-product, device/htc/desirec/desirec.mk)
-$(call inherit-product, vendor/omgb/products/common.mk)
+$(call inherit-product, vendor/omfgb/products/common.mk)
 
-build-name := OMGB-Desirec
+build-name := OMFGB-Desirec
 
 # Setup device specific product configuration.
-PRODUCT_NAME := OMGB_desirec
+PRODUCT_NAME := OMFGB_desirec
 PRODUCT_BRAND := htc
 PRODUCT_DEVICE := desirec
 PRODUCT_MODEL := Eris
@@ -15,4 +15,4 @@ PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 
 # Copy eris specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-#    vendor/omgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/omgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
