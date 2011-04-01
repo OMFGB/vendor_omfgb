@@ -19,3 +19,6 @@ PRODUCT_PACKAGES += Torch
 # Copy inc specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+
+# Device specific overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/inc
