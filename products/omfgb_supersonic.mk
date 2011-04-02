@@ -14,6 +14,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRF91 BUILD_DISPLAY_ID=$(build-version)
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+# Broadcom FM radio
+$(call inherit-product, vendor/omfgb/products/bcm_fm_radio.mk)
+
 # Copy supersonic specific prebuilt files
 PRODUCT_COPY_FILES +=  \
    vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
