@@ -27,7 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false \
-    ro.build.romversion=OMGB \
+    ro.build.romversion=OMFGB \
     ro.rommanager.developerid=r2d2 \
     ro.modversion=$(product-version)
 
