@@ -4,6 +4,8 @@
 
 ifeq ($(TARGET_PRODUCT),OMFGB_desirec)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_desirec.mk
+else ifeq ($(TARGET_PRODUCT),OMFGB_heroc)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_heroc.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_supersonic)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_supersonic.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_inc)
