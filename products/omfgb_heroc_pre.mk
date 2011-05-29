@@ -1,10 +1,11 @@
 $(call inherit-product, device/htc/heroc/heroc.mk)
 $(call inherit-product, vendor/omfgb/products/common.mk)
+$(call inherit-product, vendor/omfgb/products/pre-release.mk)
 
 build-name := OMFGB-Heroc
 include vendor/omfgb/products/version.mk
 # Setup device specific product configuration.
-PRODUCT_NAME := OMFGB_heroc
+PRODUCT_NAME := OMFGB_heroc_pre
 PRODUCT_BRAND := htc
 PRODUCT_DEVICE := heroc
 PRODUCT_MODEL := HERO200

@@ -1,10 +1,11 @@
 $(call inherit-product, device/htc/desirec/desirec.mk)
 $(call inherit-product, vendor/omfgb/products/common.mk)
+$(call inherit-product, vendor/omfgb/products/pre-release.mk)
 
 build-name := OMFGB-Desirec
 include vendor/omfgb/products/version.mk
 # Setup device specific product configuration.
-PRODUCT_NAME := OMFGB_desirec
+PRODUCT_NAME := OMFGB_desirec_pre
 PRODUCT_BRAND := htc
 PRODUCT_DEVICE := desirec
 PRODUCT_MODEL := Eris

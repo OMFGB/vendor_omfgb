@@ -1,10 +1,11 @@
 $(call inherit-product, device/htc/supersonic/supersonic.mk)
 $(call inherit-product, vendor/omfgb/products/common.mk)
+$(call inherit-product, vendor/omfgb/products/pre-release.mk)
 
 build-name := OMFGB-Supersonic
 include vendor/omfgb/products/version.mk
 # Setup device specific product configuration.
-PRODUCT_NAME := OMFGB_supersonic
+PRODUCT_NAME := OMFGB_supersonic_pre
 PRODUCT_BRAND := sprint
 PRODUCT_DEVICE := supersonic
 PRODUCT_MODEL := Evo
