@@ -2,7 +2,7 @@ $(call inherit-product, device/htc/desirec/desirec.mk)
 $(call inherit-product, vendor/omfgb/products/common.mk)
 
 build-name := OMFGB-Desirec
-
+include vendor/omfgb/products/version.mk
 # Setup device specific product configuration.
 PRODUCT_NAME := OMFGB_desirec
 PRODUCT_BRAND := htc
