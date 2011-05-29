@@ -10,4 +10,6 @@ else ifeq ($(TARGET_PRODUCT),OMFGB_supersonic)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_supersonic.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_inc)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_inc.mk
+else ifeq ($(TARGET_PRODUCT),OMFGB_inc_themed)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_inc_themed.mk
 endif
