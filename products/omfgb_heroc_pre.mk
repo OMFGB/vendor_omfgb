@@ -19,3 +19,9 @@ PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/omfgb/prelink-lin
 # Copy hero specific prebuilt files
 PRODUCT_COPY_FILES +=  \
 #    vendor/omfgb/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+
+# Device specific overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/heroc
+
+# Pre-release specific overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/pre-release

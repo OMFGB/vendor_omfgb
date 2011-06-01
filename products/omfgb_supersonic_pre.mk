@@ -20,7 +20,13 @@ $(call inherit-product, vendor/omfgb/products/bcm_fm_radio.mk)
 
 # Copy supersonic specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-   vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+   vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/omfgb/prebuilt/pre-release/LatinIME.apk:system/app/LatinIME.apk \
+    vendor/omfgb/prebuilt/pre-release/libjni_latinime.so:system/lib/libjni_latinime.so
+
 
 # Device specific overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/supersonic
+
+# Pre-release specific overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/pre-release

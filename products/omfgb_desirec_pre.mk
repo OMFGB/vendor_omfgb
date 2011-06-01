@@ -20,3 +20,6 @@ PRODUCT_COPY_FILES +=  \
 
 # Device specific overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/desirec
+
+# Pre-release specific overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/pre-release
