@@ -2,7 +2,7 @@ $(call inherit-product, device/htc/inc/inc.mk)
 $(call inherit-product, vendor/omfgb/products/common.mk)
 
 build-name := OMFGB-Inc
-include vendor/omfgb/products/version.mk
+include vendor/omfgb/products/full.mk
 # Setup device specific product configuration.
 PRODUCT_NAME := OMFGB_inc_themed
 PRODUCT_BRAND := htc
