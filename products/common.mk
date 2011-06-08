@@ -3,7 +3,7 @@ PRODUCT_NAME := OMFGB
 PRODUCT_BRAND := OMFGB
 PRODUCT_DEVICE := generic
 
-include vendor/omfgb/products/full.mk
+include vendor/omfgb/products/full-version.mk
 include vendor/tmobile/products/themes/themes-base.mk
 
 PRODUCT_PROPERTY_OVERRIDES += \

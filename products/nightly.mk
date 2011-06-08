@@ -1,6 +1,3 @@
-build-version := 1.3.0_nightly-1
-product-version := $(build-name)-$(build-version)
-
 # Pre release overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/nightly
 

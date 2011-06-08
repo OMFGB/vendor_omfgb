@@ -1,14 +1,15 @@
 $(call inherit-product, device/htc/heroc/heroc.mk)
 $(call inherit-product, vendor/omfgb/products/common.mk)
-$(call inherit-product, vendor/omfgb/products/full.mk)
 
 build-name := OMFGB-Heroc
+
+include vendor/omfgb/products/full-version.mk
 
 # Setup device specific product configuration.
 PRODUCT_NAME := OMFGB_heroc
 PRODUCT_BRAND := htc
 PRODUCT_DEVICE := heroc
-PRODUCT_MODEL := HERO200
+PRODUCT_MODEL := Hero
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=$(build-version) BUILD_FINGERPRINT=google/passion/passion:2.3.3/GRI40/102588:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.3 GRI40 102588 release-keys"
 
