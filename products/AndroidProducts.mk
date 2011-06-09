@@ -10,6 +10,8 @@ else ifeq ($(TARGET_PRODUCT),OMFGB_inc)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_inc.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_mecha)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_mecha.mk
+else ifeq ($(TARGET_PRODUCT),OMFGB_sholes)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_sholes.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_desirec_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_desirec_nightly.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_heroc_nightly)
