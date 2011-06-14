@@ -21,3 +21,6 @@ PRODUCT_COPY_FILES +=  \
 
 # Device specific overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/desirec
+
+PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/omfgb/prelink-linux-arm-desirec.map
+
