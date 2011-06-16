@@ -31,12 +31,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=r2d2 \
     ro.modversion=$(product-version)
 
-# OMFGB specific product packages
+# OMFGB Themes
 PRODUCT_PACKAGES += \
-
-# Extra tools in OMFGB
-PRODUCT_PACKAGES += \
-
+	OMFT
 
 
 # Common OMGB overlay
