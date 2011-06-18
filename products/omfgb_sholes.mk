@@ -1,4 +1,4 @@
-$(call inherit-product, device/motorola/sholes.mk)
+$(call inherit-product, device/motorola/sholes/sholes.mk)
 $(call inherit-product, vendor/omfgb/products/common.mk)
 
 build-name := OMFGB-Sholes
