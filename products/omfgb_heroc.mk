@@ -17,6 +17,9 @@ PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 
 PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/omfgb/prelink-linux-arm-heroc.map
 
+# Device specific overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/heroc
+
 # Copy hero specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-#    vendor/omfgb/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/omfgb/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip

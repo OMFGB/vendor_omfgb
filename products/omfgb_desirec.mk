@@ -17,7 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 
 # Copy eris specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-#    vendor/omfgb/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/omfgb/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
 
 # Device specific overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/desirec
