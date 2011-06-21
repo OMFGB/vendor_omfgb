@@ -30,6 +30,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.romversion=OMFGB \
     ro.rommanager.developerid=r2d2 \
     ro.modversion=$(product-version)
+    ro.stats.devname=T3hh4xx0r
+    ro.stats.romname=OMFGB
+    ro.stats.romversion=$(product-version)
 
 # Common OMGB overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/common
@@ -52,7 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/omfgb/prebuilt/common/xbin/htop:system/xbin/htop \
     vendor/omfgb/prebuilt/common/xbin/irssi:system/xbin/irssi \
     vendor/omfgb/prebuilt/common/xbin/powertop:system/xbin/powertop \
-    vendor/omfgb/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
+    vendor/omfgb/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh \
+    vendor/omfgb/prebuild/common/system/app/RomStats.apk:system/app/RomStats.apk
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
