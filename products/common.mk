@@ -1,9 +1,10 @@
+
 # Generic OMFGB product
 PRODUCT_NAME := OMFGB
 PRODUCT_BRAND := OMFGB
 PRODUCT_DEVICE := generic
 
-include vendor/omfgb/products/full-version.mk
+include vendor/omfgb/products/nightly-version.mk
 include vendor/tmobile/products/themes/themes-base.mk
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -29,9 +30,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
     ro.build.romversion=OMFGB \
     ro.rommanager.developerid=r2d2 \
-    ro.modversion=$(product-version)
-    ro.stats.devname=T3hh4xx0r
-    ro.stats.romname=OMFGB
+    ro.modversion=$(product-version) \
+    ro.stats.devname=T3hh4xx0r \
+    ro.stats.romname=OMFGB \
     ro.stats.romversion=$(product-version)
 
 # Common OMGB overlay
@@ -56,7 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/omfgb/prebuilt/common/xbin/irssi:system/xbin/irssi \
     vendor/omfgb/prebuilt/common/xbin/powertop:system/xbin/powertop \
     vendor/omfgb/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh \
-    vendor/omfgb/prebuild/common/system/app/RomStats.apk:system/app/RomStats.apk
+    vendor/omfgb/prebuilt/common/system/app/RomStats.apk:system/app/RomStats.apk
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
