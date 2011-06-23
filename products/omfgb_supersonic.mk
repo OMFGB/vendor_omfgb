@@ -13,6 +13,9 @@ PRODUCT_MODEL := Evo
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=$(build-version) PRODUCT_NAME=htc_supersonic BUILD_FINGERPRINT=sprint/htc_supersonic/supersonic/supersonic:2.2/FRF91/294884:user/release-keys PRIVATE_BUILD_DESC=$(product-version)
 
+# Add Wimax
+PRODUCT_PACKAGES += CMWimaxSettings
+
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
