@@ -1,5 +1,6 @@
 $(call inherit-product, device/htc/supersonic/supersonic.mk)
 $(call inherit-product, vendor/omfgb/products/common.mk)
+$(call inherit-product, vendor/omfgb/products/wimax.mk)
 
 build-name := OMFGB-Supersonic
 
