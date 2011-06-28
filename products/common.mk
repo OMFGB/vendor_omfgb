@@ -6,6 +6,7 @@ PRODUCT_DEVICE := generic
 
 include vendor/omfgb/products/nightly-version.mk
 include vendor/tmobile/products/themes/themes-base.mk
+include frameworks/base/data/sounds/AllAudio.mk
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=DonMessWivIt.ogg
