@@ -4,5 +4,3 @@ add_lunch_combo OMFGB_inc-eng
 add_lunch_combo OMFGB_mecha-eng
 add_lunch_combo OMFGB_sholes-eng
 add_lunch_combo OMFGB_supersonic-eng
-add_lunch_combo OMFGB_inc_themed-eng
-

@@ -20,6 +20,4 @@ else ifeq ($(TARGET_PRODUCT),OMFGB_supersonic_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_supersonic_nightly.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_inc_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_inc_nightly.mk
-else ifeq ($(TARGET_PRODUCT),OMFGB_inc_themed)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_inc_themed.mk
 endif
