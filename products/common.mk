@@ -21,6 +21,14 @@ TINY_TOOLBOX:=true
 # Enable Windows Media if supported by the board
 WITH_WINDOWS_MEDIA:=true
 
+PRODUCT_PACKAGES += \
+    Addons \
+    CMScreenshot \
+    DSPManager \
+    libcyanogen-dsp \
+    screenshot \
+    Wallpapers
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
