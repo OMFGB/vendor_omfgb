@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     Addons \
     CMScreenshot \
     DSPManager \
+    God_Mode \
     libcyanogen-dsp \
     screenshot \
     Wallpapers
