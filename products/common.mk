@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/omfgb/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
     vendor/omfgb/prebuilt/common/etc/profile:system/etc/profile \
     vendor/omfgb/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
+    vendor/omfgb/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/omfgb/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
     vendor/omfgb/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
     vendor/omfgb/prebuilt/common/etc/init.d/04modules:system/etc/init.d/04modules \
