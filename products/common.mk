@@ -22,7 +22,6 @@ TINY_TOOLBOX:=true
 WITH_WINDOWS_MEDIA:=true
 
 PRODUCT_PACKAGES += \
-    Addons \
     CMScreenshot \
     DSPManager \
     God_Mode \
