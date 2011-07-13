@@ -26,4 +26,6 @@ else ifeq ($(TARGET_PRODUCT),OMFGB_inc_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_inc_nightly.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_fascinatemtd_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_fascinatemtd_nightly.mk
+else ifeq ($(TARGET_PRODUCT),OMFGB_vivow_nightly)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_vivow_nightly.mk
 endif
