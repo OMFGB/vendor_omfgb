@@ -4,7 +4,6 @@ PRODUCT_NAME := OMFGB
 PRODUCT_BRAND := OMFGB
 PRODUCT_DEVICE := generic
 
-include vendor/omfgb/products/nightly-version.mk
 include vendor/tmobile/products/themes/themes-base.mk
 include frameworks/base/data/sounds/AllAudio.mk
 
