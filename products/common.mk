@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/omfgb/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
     vendor/omfgb/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
     vendor/omfgb/prebuilt/common/etc/init.d/04modules:system/etc/init.d/04modules \
+    vendor/omfgb/prebuilt/common/etc/init.d/06mountdl:system/etc/init.d/06mountdl \
     vendor/omfgb/prebuilt/common/etc/init.d/20userinit:system/etc/init.d/20userinit \
     vendor/omfgb/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
     vendor/omfgb/prebuilt/common/bin/compcache:system/bin/compcache \
