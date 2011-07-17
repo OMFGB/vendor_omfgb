@@ -3,7 +3,7 @@ $(call inherit-product, vendor/omfgb/products/common.mk)
 
 build-name := OMFGB-Fascinate
 
-include vendor/omfgb/products/full-version.mk
+include vendor/omfgb/products/nightly-version.mk
 
 # Setup device specific product configuration.
 PRODUCT_NAME := OMFGB_fascinatemtd

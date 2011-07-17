@@ -3,7 +3,8 @@ $(call inherit-product, vendor/omfgb/products/common.mk)
 
 build-name := OMFGB-Mecha
 
-include vendor/omfgb/products/full-version.mk
+include vendor/omfgb/products/nightly-version.mk
+
 # Setup device specific product configuration.
 PRODUCT_NAME := OMFGB_mecha
 PRODUCT_BRAND := htc
