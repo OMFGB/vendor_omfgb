@@ -5,8 +5,17 @@
 
 C=/tmp/backupdir
 S=/system
+V=OMFGB
 
 PROCEED=1;
+
+check_prereq() {
+    if ( ! grep -q "^ro.modversion=.*$V.*" /system/build.prop );
+    then
+        echo "Not backing up files from incompatible version.";
+        PROCEED=0;
+    fi
+}
 
 check_installscript() {
    if [ -f "/tmp/.installscript" ] && [ $PROCEED -ne 0 ];
