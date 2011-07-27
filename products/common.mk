@@ -47,7 +47,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/omfgb/overlay/common
 
 PRODUCT_COPY_FILES += \
-    vendor/omfgb/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/omfgb/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
     vendor/omfgb/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
     vendor/omfgb/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
