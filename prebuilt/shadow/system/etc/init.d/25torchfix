@@ -1,0 +1,4 @@
+#!/system/bin/sh
+chmod 0666 /sys/class/leds/spotlight/brightness
+chmod 0666 /sys/class/leds/torch-flash/brightness
+chmod 0666 /sys/class/leds/torch-flash/flash_light
