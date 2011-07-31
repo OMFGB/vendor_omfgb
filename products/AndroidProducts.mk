@@ -20,6 +20,8 @@ else ifeq ($(TARGET_PRODUCT),OMFGB_mesmerizemtd)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_mesmerizemtd.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_showcasemtd)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_showcasemtd.mk
+else ifeq ($(TARGET_PRODUCT),OMFGB_shadow)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_shadow.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_desirec_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_desirec_nightly.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_heroc_nightly)
@@ -36,4 +38,6 @@ else ifeq ($(TARGET_PRODUCT),OMFGB_showcasemtd_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_showcasemtd_nightly.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_vivow_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_vivow_nightly.mk
+else ifeq ($(TARGET_PRODUCT),OMGB_shadow_nightly)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omgb_shadow_nightly.mk
 endif
