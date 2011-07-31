@@ -38,6 +38,6 @@ else ifeq ($(TARGET_PRODUCT),OMFGB_showcasemtd_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_showcasemtd_nightly.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_vivow_nightly)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_vivow_nightly.mk
-else ifeq ($(TARGET_PRODUCT),OMGB_shadow_nightly)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omgb_shadow_nightly.mk
+else ifeq ($(TARGET_PRODUCT),OMFGB_shadow_nightly)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_shadow_nightly.mk
 endif
