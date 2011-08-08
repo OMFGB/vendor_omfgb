@@ -15,9 +15,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=$(build-version) PRODUCT_NAME=s
 
 PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 
-# Add the Torch app
-#PRODUCT_PACKAGES += Torch
-
 # Copy fascinate specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip

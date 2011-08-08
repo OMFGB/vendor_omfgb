@@ -1,4 +1,3 @@
-
 # Generic OMFGB product
 PRODUCT_NAME := OMFGB
 PRODUCT_BRAND := OMFGB
@@ -10,6 +9,7 @@ include frameworks/base/data/sounds/AllAudio.mk
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=DonMessWivIt.ogg
 
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Used by BusyBox
 KERNEL_MODULES_DIR:=/system/lib/modules
@@ -56,8 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/omfgb/prebuilt/common/etc/init.d/04modules:system/etc/init.d/04modules \
     vendor/omfgb/prebuilt/common/etc/init.d/06mountdl:system/etc/init.d/06mountdl \
     vendor/omfgb/prebuilt/common/etc/init.d/20userinit:system/etc/init.d/20userinit \
-    vendor/omfgb/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
-    vendor/omfgb/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/omfgb/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
     vendor/omfgb/prebuilt/common/bin/sysinit:system/bin/sysinit \
     vendor/omfgb/prebuilt/common/xbin/htop:system/xbin/htop \
