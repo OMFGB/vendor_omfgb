@@ -7,6 +7,7 @@ add_lunch_combo OMFGB_supersonic-eng
 add_lunch_combo OMFGB_fascinatemtd-eng
 add_lunch_combo OMFGB_mesmerizemtd-eng
 add_lunch_combo OMFGB_showcasemtd-eng
+add_lunch_combo OMFGB_vibrantmtd-eng
 add_lunch_combo OMFGB_vivow-eng
 add_lunch_combo OMFGB_shadow-eng
 
