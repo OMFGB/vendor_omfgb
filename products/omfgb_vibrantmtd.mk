@@ -15,6 +15,17 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=$(build-version) PRODUCT_NAME=v
 
 PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 
+# Extra RIL settings
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ril.enable.managed.roaming=1 \
+    ro.ril.oem.nosim.ecclist=911,112,999,000,08,118,120,122,110,119,995 \
+    ro.ril.emc.mode=2
+    
+# Add additional mounts
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.additionalmounts=/mnt/emmc \
+    ro.vold.switchablepair=/mnt/sdcard,/mnt/emmc
+
 # Copy fascinate specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
