@@ -19,9 +19,6 @@ PRODUCT_PACKAGES += Torch
 # Add the Stk app
 PRODUCT_PACKAGES += Stk
 
-# Add AicBootFix
-PRODUCT_PACKAGES += AicBootFix
-
 # Broadcom FM radio
 $(call inherit-product, vendor/omfgb/products/bcm_fm_radio.mk)
 
