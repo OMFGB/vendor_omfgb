@@ -1,6 +1,8 @@
 #Work around... khang from cocide
 
-ifeq ($(TARGET_PRODUCT),OMFGB_desirec)
+ifeq ($(TARGET_PRODUCT),OMFGB_ace)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_ace.mk
+else ifeq ($(TARGET_PRODUCT),OMFGB_desirec)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_desirec.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_heroc)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_heroc.mk
