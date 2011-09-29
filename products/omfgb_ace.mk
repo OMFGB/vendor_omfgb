@@ -1,5 +1,6 @@
 $(call inherit-product, device/htc/ace/ace.mk)
 $(call inherit-product, vendor/omfgb/products/common.mk)
+$(call inherit-product, vendor/omfgb/products/gsm.mk)
 
 build-name := OMFGB-Ace
 
