@@ -15,6 +15,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=$(build-version) PRODUCT_NAME=v
 
 PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 
+# Add the DSP Manager app.
+PRODUCT_PACKAGES += DSPManager
+
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 

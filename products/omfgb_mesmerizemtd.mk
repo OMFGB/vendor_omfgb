@@ -18,6 +18,9 @@ PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+# Add the DSP Manager app.
+PRODUCT_PACKAGES += DSPManager
+
 # Copy fascinate specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip

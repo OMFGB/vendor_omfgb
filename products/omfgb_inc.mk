@@ -18,6 +18,9 @@ PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+# Add the DSP Manager app.
+PRODUCT_PACKAGES += DSPManager
+
 # Broadcom FM radio
 $(call inherit-product, vendor/omfgb/products/bcm_fm_radio.mk)
 

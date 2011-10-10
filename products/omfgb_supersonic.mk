@@ -17,6 +17,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=$(build-version) PRODUCT_NAME=h
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
+# Add the DSP Manager app.
+PRODUCT_PACKAGES += DSPManager
+
 # Broadcom FM radio
 $(call inherit-product, vendor/omfgb/products/bcm_fm_radio.mk)
 

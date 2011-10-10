@@ -14,6 +14,9 @@ PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=FRG83D BUILD_DISPLAY_ID=GRJ22 PRODUCT_N
 
 PRODUCT_PACKAGES += Torch
 
+# Add the DSP Manager app.
+PRODUCT_PACKAGES += DSPManager
+
 PRODUCT_COPY_FILES += \
      vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
 

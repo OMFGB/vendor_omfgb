@@ -19,6 +19,9 @@ PRODUCT_PACKAGES += Torch
 # Add the Stk app
 PRODUCT_PACKAGES += Stk
 
+# Add the DSP Manager app.
+PRODUCT_PACKAGES += DSPManager
+
 # Broadcom FM radio
 $(call inherit-product, vendor/omfgb/products/bcm_fm_radio.mk)
 

@@ -20,6 +20,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=lge_lge_star BUILD_ID=GRI40 BUILD_D
 
 PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 
+# Add the DSP Manager app.
+PRODUCT_PACKAGES += DSPManager
+
 # Copy prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/omfgb/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip

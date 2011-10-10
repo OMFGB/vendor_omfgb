@@ -20,7 +20,6 @@ WITH_WINDOWS_MEDIA:=true
 
 PRODUCT_PACKAGES += \
     CMScreenshot \
-    DSPManager \
     God_Mode \
     libcyanogen-dsp \
     screenshot \

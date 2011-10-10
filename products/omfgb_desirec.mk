@@ -15,6 +15,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=$(build-version) PRODUCT_NAME=d
 
 PRODUCT_PROPERTY_OVERRIDES += ro.product.version=3.26.605.1
 
+# Add the DSP Manager app.
+PRODUCT_PACKAGES += DSPManager
+
 # Copy eris specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/omfgb/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
