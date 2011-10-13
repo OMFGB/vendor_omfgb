@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
 	vendor/omfgb/prebuilt/shadow/system/lib/libLCML.so:system/lib/libLCML.so \
 	vendor/omfgb/prebuilt/shadow/system/lib/libstagefright.so:system/lib/libstagefright.so \
 	vendor/omfgb/prebuilt/shadow/system/app/LatinIME.apk:system/app/LatinIME.apk \
+        vendor/omfgb/prebuilt/shadow/system/app/Usb.apk:system/app/Usb.apk \
 	vendor/omfgb/prebuilt/shadow/system/app/Torch.apk:system/app/Torch.apk \
 	vendor/omfgb/prebuilt/shadow/system/etc/init.d/25torchfix:system/etc/init.d/25torchfix
     
